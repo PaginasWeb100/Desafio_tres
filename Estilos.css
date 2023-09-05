@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Fraunces', serif;
+}
+
+body{
+    background: hsl(30, 38%, 92%);
+}
+
+.principal{
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 10%;
+    border-radius: 2vh;
+    width: 90%;
+    height: 90%;
+    background: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-border-radius: 2vh;
+    -moz-border-radius: 2vh;
+    -ms-border-radius: 2vh;
+    -o-border-radius: 2vh;
+}
+
+.principal img{
+    position: absolute;
+    margin-top: -130.5%;
+    width: 100%;
+    border-radius: 2vh 2vh 0 0;
+    -webkit-border-radius: 2vh 2vh 0 0;
+    -moz-border-radius: 2vh 2vh 0 0;
+    -ms-border-radius: 2vh 2vh 0 0;
+    -o-border-radius: 2vh 2vh 0 0;
+}
+
+.principal h3{
+    position: absolute;
+    color: hsla(228, 12%, 48%, .5);
+    letter-spacing: 1vh;
+    margin-top: -40%;
+    margin-right: 40%;
+    font-size: 100%;
+    text-transform: uppercase;
+    font-family: 'Fraunces', serif;
+}
+
+.principal h1{
+    position: absolute;
+    font-size: 190%;
+    text-align: left;
+    margin-top: -5%;
+    margin-left: 9.5%;
+    margin-right: 9.5%;
+}
+
+.principal p{
+    color: hsla(228, 12%, 48%, .7);
+    margin-left: 9.5%;
+    margin-right: 10%;
+    line-height: 150%;
+    font-size: 85%;
+    margin-top: 50%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.principal h2{
+    color: hsl(158, 36%, 37%); 
+    margin-top: 107%;
+    font-size: 195%;
+    margin-right: 46.2%;
+}
+
+.principal h4{
+    color: hsla(228, 12%, 48%, .4);
+    margin-top: 107%;
+    margin-left: 20%;
+    text-decoration: line-through;
+}
+
+.principal button img{
+    position: relative;
+    margin-top: -1%;
+    margin-right: 5%;
+    width: 7%;
+}
+
+.principal button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    color: hsl(0, 0%, 100%);
+    font-weight: bold;
+    font-size: 100%;
+    margin-top: 160%;
+    width: 79.6%;
+    height: 8%;
+    border-radius: 2vh;
+    position: absolute;
+    background: hsl(158, 36%, 37%);
+    border: none;
+    -webkit-border-radius: 2vh;
+    -moz-border-radius: 2vh;
+    -ms-border-radius: 2vh;
+    -o-border-radius: 2vh;
+}
+
+.principal h2, h4{
+    position: absolute;
+}
+
+@media screen and (min-width: 1440px){
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: 'Fraunces', serif;
+    }
+
+    .principal{
+        position: absolute;
+        margin-left: 35%;
+        margin-top: 12%;
+        border-radius: 2vh;
+        width: 30%;
+        height: 50%;
+        background: hsl(0, 0%, 100%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        -webkit-border-radius: 2vh;
+        -moz-border-radius: 2vh;
+        -ms-border-radius: 2vh;
+        -o-border-radius: 2vh;
+    }
+
+    .principal img{
+        content: url(images/image-product-desktop.jpg);
+        position: relative;
+        margin-top: 0%;
+        width: 50%;
+        height: 100%;
+        border-radius: 2vh 0 0 2vh;
+        -webkit-border-radius: 2vh 0 0 2vh;
+        -moz-border-radius: 2vh 0 0 2vh;
+        -ms-border-radius: 2vh 0 0 2vh;
+        -o-border-radius: 2vh 0 0 2vh;
+    }
+
+    .principal button img{
+        content: url(images/icon-cart.svg);
+        position: relative;
+        margin-top: -1%;
+        margin-right: 5%;
+        width: 7%;
+    }
+
+    .principal h3{
+        position: absolute;
+        color: hsla(228, 12%, 48%, .8);
+        letter-spacing: 1vh;
+        margin-top: -70%;
+        margin-right: -32%;
+        font-size: 80%;
+        text-transform: uppercase;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .principal h1{
+        position: absolute;
+        font-size: 205%;
+        text-align: left;
+        margin-top: -40%;
+        margin-left: 55%;
+        margin-right: 9.5%;
+    }
+
+    .principal p{
+        color: hsla(228, 12%, 48%, .9);
+        margin-left: 5.4%;
+        margin-right: 5%;
+        line-height: 160%;
+        font-size: 85%;
+        margin-top: 5%;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .principal h2{
+        color: hsl(158, 36%, 37%); 
+        margin-top: 35%;
+        font-size: 195%;
+        margin-right: -32%;
+    }
+
+    .principal h4{
+        color: hsla(228, 12%, 48%, .4);
+        margin-top: 35%;
+        margin-left: 71%;
+        text-decoration: line-through;
+    }
+
+    .principal button img{
+        position: relative;
+        margin-top: -1%;
+        margin-right: 5%;
+        height: 35%;
+        width: 11%;
+    }
+
+    .principal button{
+        color: hsl(0, 0%, 100%);
+        font-weight: bold;
+        font-size: 100%;
+        margin-top: 60%;
+        margin-left: 50%;
+        width: 40%;
+        height: 12%;
+        border-radius: 1vh;
+        position: absolute;
+        background: hsl(158, 36%, 37%);
+        border: none;
+        -webkit-border-radius: 1vh;
+        -moz-border-radius: 1vh;
+        -ms-border-radius: 1vh;
+        -o-border-radius: 1vh;
+    }
+}
